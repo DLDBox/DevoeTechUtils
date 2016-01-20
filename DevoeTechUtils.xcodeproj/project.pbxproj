@@ -1,0 +1,893 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		66F5F13314DB195B0068FD20 /* Framework */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 66F5F13614DB195B0068FD20 /* Build configuration list for PBXAggregateTarget "Framework" */;
+			buildPhases = (
+				66F5F13A14DB19B20068FD20 /* Build Framework */,
+			);
+			dependencies = (
+				664A26AC14E330B700C297E6 /* PBXTargetDependency */,
+				66F5F13914DB19940068FD20 /* PBXTargetDependency */,
+			);
+			name = Framework;
+			productName = Framework;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		11A7CD921C455B9C00145109 /* UVVideoStreamPlayer-Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = 11A7CD911C455B9C00145109 /* UVVideoStreamPlayer-Prefix.pch */; };
+		3E5B6A971938D3EE0084123A /* TAGlobals.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E5B6A801938D3EE0084123A /* TAGlobals.h */; };
+		4A6BE19E19ADD94D0047AA66 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A6BE19D19ADD94D0047AA66 /* CoreBluetooth.framework */; };
+		664A269614E3265400C297E6 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 664A268414E3222700C297E6 /* CoreFoundation.framework */; };
+		664A269C14E3265400C297E6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 664A269A14E3265400C297E6 /* InfoPlist.strings */; };
+		66E8B6D714D899500074EAA4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66E8B6D614D899500074EAA4 /* Foundation.framework */; };
+		8B0914111B98B10900DEEBB2 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B0914101B98B10900DEEBB2 /* CoreAudio.framework */; };
+		8B0914141B98B1DE00DEEBB2 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B0914131B98B1DE00DEEBB2 /* Accelerate.framework */; };
+		8B09144B1B98C18C00DEEBB2 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B09144A1B98C18C00DEEBB2 /* AVFoundation.framework */; };
+		8B1760721AE6DA3C00895186 /* TAOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B1760701AE6DA3C00895186 /* TAOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8B1760731AE6DA3C00895186 /* TAOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B1760711AE6DA3C00895186 /* TAOperation.m */; };
+		8B17607A1AE6DFEC00895186 /* TAOperationQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B1760781AE6DFEC00895186 /* TAOperationQueue.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8B17607B1AE6DFEC00895186 /* TAOperationQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B1760791AE6DFEC00895186 /* TAOperationQueue.m */; };
+		8B21BE5E1B26325B00A7D637 /* TADate.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B21BE541B26325B00A7D637 /* TADate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8B21BE5F1B26325B00A7D637 /* TADate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B21BE551B26325B00A7D637 /* TADate.m */; };
+		8B21BE621B26325B00A7D637 /* TALog.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B21BE581B26325B00A7D637 /* TALog.h */; };
+		8B21BE631B26325B00A7D637 /* TALog.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B21BE591B26325B00A7D637 /* TALog.m */; };
+		8B21BE891B27586500A7D637 /* ArchiveManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B21BE871B27586500A7D637 /* ArchiveManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8B21BE8A1B27586500A7D637 /* ArchiveManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B21BE881B27586500A7D637 /* ArchiveManager.m */; };
+		8B2AC7D31BD9713D00511107 /* TADurationTimers.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B2AC7D11BD9713D00511107 /* TADurationTimers.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8B52BB251BBC8EB200448808 /* DTBiDiQue.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B52BB231BBC8EB200448808 /* DTBiDiQue.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8B52BB261BBC8EB200448808 /* DTBiDiQue.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B52BB241BBC8EB200448808 /* DTBiDiQue.m */; };
+		8B7C29FF1BA079EF00D7193A /* TADeviceHardware.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B7C29FD1BA079EF00D7193A /* TADeviceHardware.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8B7C2A001BA079EF00D7193A /* TADeviceHardware.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B7C29FE1BA079EF00D7193A /* TADeviceHardware.m */; };
+		8B7C2A031BA1C75E00D7193A /* TATimers.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B7C2A011BA1C75E00D7193A /* TATimers.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8B7C2A041BA1C75E00D7193A /* TATimers.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B7C2A021BA1C75E00D7193A /* TATimers.m */; };
+		8B97DD8E1BC2C9BB00574926 /* DTBiDiQue.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B52BB241BBC8EB200448808 /* DTBiDiQue.m */; };
+		8B97DD941BC2C9BB00574926 /* TADeviceHardware.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B7C29FE1BA079EF00D7193A /* TADeviceHardware.m */; };
+		8B97DD961BC2C9BB00574926 /* TATimers.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B7C2A021BA1C75E00D7193A /* TATimers.m */; };
+		8B97DD991BC2C9BB00574926 /* TADate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B21BE551B26325B00A7D637 /* TADate.m */; };
+		8B97DD9D1BC2C9BB00574926 /* TALog.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B21BE591B26325B00A7D637 /* TALog.m */; };
+		8B97DDA11BC2C9BB00574926 /* TAOperationQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B1760791AE6DFEC00895186 /* TAOperationQueue.m */; };
+		8B97DDB11BC2C9BB00574926 /* SSKeychain.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BF66F101B02A9FD0085122F /* SSKeychain.m */; };
+		8B97DDB31BC2C9BB00574926 /* SSKeychainQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BF66F121B02A9FD0085122F /* SSKeychainQuery.m */; };
+		8B97DDB41BC2C9BB00574926 /* TAUniqueIdentifier.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BF66F0C1B02A7B20085122F /* TAUniqueIdentifier.m */; };
+		8B97DDB51BC2C9BB00574926 /* ArchiveManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B21BE881B27586500A7D637 /* ArchiveManager.m */; };
+		8B97DDC61BC2C9BB00574926 /* TAOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B1760711AE6DA3C00895186 /* TAOperation.m */; };
+		8B97DDCD1BC2C9BB00574926 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B09144A1B98C18C00DEEBB2 /* AVFoundation.framework */; };
+		8B97DDCE1BC2C9BB00574926 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B0914131B98B1DE00DEEBB2 /* Accelerate.framework */; };
+		8B97DDCF1BC2C9BB00574926 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B0914101B98B10900DEEBB2 /* CoreAudio.framework */; };
+		8B97DDD01BC2C9BB00574926 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5AA1C8D193FA352000FEB29 /* UIKit.framework */; };
+		8B97DDD11BC2C9BB00574926 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A6BE19D19ADD94D0047AA66 /* CoreBluetooth.framework */; };
+		8B97DDD21BC2C9BB00574926 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5AA1C8C193FA352000FEB29 /* SystemConfiguration.framework */; };
+		8B97DDD31BC2C9BB00574926 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 664A268414E3222700C297E6 /* CoreFoundation.framework */; };
+		8B97DDD41BC2C9BB00574926 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5AA1C89193FA331000FEB29 /* CoreLocation.framework */; };
+		8B97DDD51BC2C9BB00574926 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5AA1C87193FA323000FEB29 /* QuartzCore.framework */; };
+		8B97DDD61BC2C9BB00574926 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66E8B6D614D899500074EAA4 /* Foundation.framework */; };
+		8B97DDDF1BC2C9BB00574926 /* TAOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B1760701AE6DA3C00895186 /* TAOperation.h */; };
+		8B97DDE01BC2C9BB00574926 /* ArchiveManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B21BE871B27586500A7D637 /* ArchiveManager.h */; };
+		8B97DDE31BC2C9BB00574926 /* SSKeychainQuery.h in Headers */ = {isa = PBXBuildFile; fileRef = 8BF66F111B02A9FD0085122F /* SSKeychainQuery.h */; };
+		8B97DDE61BC2C9BB00574926 /* DTBiDiQue.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B52BB231BBC8EB200448808 /* DTBiDiQue.h */; };
+		8B97DDE91BC2C9BB00574926 /* TADate.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B21BE541B26325B00A7D637 /* TADate.h */; };
+		8B97DDED1BC2C9BB00574926 /* TATimers.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B7C2A011BA1C75E00D7193A /* TATimers.h */; };
+		8B97DDF11BC2C9BB00574926 /* TADeviceHardware.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B7C29FD1BA079EF00D7193A /* TADeviceHardware.h */; };
+		8B97DDF31BC2C9BB00574926 /* TAOperationQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B1760781AE6DFEC00895186 /* TAOperationQueue.h */; };
+		8B97DDF51BC2C9BB00574926 /* TAGlobals.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E5B6A801938D3EE0084123A /* TAGlobals.h */; };
+		8B97DDFA1BC2C9BB00574926 /* SSKeychain.h in Headers */ = {isa = PBXBuildFile; fileRef = 8BF66F0F1B02A9FD0085122F /* SSKeychain.h */; };
+		8B97DDFD1BC2C9BB00574926 /* TALog.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B21BE581B26325B00A7D637 /* TALog.h */; };
+		8B97DE001BC2C9BB00574926 /* TAUniqueIdentifier.h in Headers */ = {isa = PBXBuildFile; fileRef = 8BF66F0B1B02A7B20085122F /* TAUniqueIdentifier.h */; };
+		8BA5BF431BCC455E000626F4 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BA5BF421BCC455E000626F4 /* AdSupport.framework */; };
+		8BF66F0D1B02A7B20085122F /* TAUniqueIdentifier.h in Headers */ = {isa = PBXBuildFile; fileRef = 8BF66F0B1B02A7B20085122F /* TAUniqueIdentifier.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8BF66F0E1B02A7B20085122F /* TAUniqueIdentifier.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BF66F0C1B02A7B20085122F /* TAUniqueIdentifier.m */; };
+		8BF66F131B02A9FD0085122F /* SSKeychain.h in Headers */ = {isa = PBXBuildFile; fileRef = 8BF66F0F1B02A9FD0085122F /* SSKeychain.h */; };
+		8BF66F141B02A9FD0085122F /* SSKeychain.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BF66F101B02A9FD0085122F /* SSKeychain.m */; };
+		8BF66F151B02A9FD0085122F /* SSKeychainQuery.h in Headers */ = {isa = PBXBuildFile; fileRef = 8BF66F111B02A9FD0085122F /* SSKeychainQuery.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8BF66F161B02A9FD0085122F /* SSKeychainQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BF66F121B02A9FD0085122F /* SSKeychainQuery.m */; };
+		F5AA1C88193FA323000FEB29 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5AA1C87193FA323000FEB29 /* QuartzCore.framework */; };
+		F5AA1C8A193FA331000FEB29 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5AA1C89193FA331000FEB29 /* CoreLocation.framework */; };
+		F5AA1C8B193FA33B000FEB29 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 664A268414E3222700C297E6 /* CoreFoundation.framework */; };
+		F5AA1C8F193FA352000FEB29 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5AA1C8C193FA352000FEB29 /* SystemConfiguration.framework */; };
+		F5AA1C90193FA352000FEB29 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5AA1C8D193FA352000FEB29 /* UIKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		664A26AB14E330B700C297E6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 66E8B6CA14D899500074EAA4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 664A269414E3265400C297E6;
+			remoteInfo = SerenityResources;
+		};
+		66F5F13814DB19940068FD20 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 66E8B6CA14D899500074EAA4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 66E8B6D214D899500074EAA4;
+			remoteInfo = Serenity;
+		};
+		8B97DE0D1BC2CBC600574926 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 66E8B6CA14D899500074EAA4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 664A269414E3265400C297E6;
+			remoteInfo = ThinaireControllerResources;
+		};
+		8B97DE0F1BC2CBE300574926 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 66E8B6CA14D899500074EAA4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 66E8B6D214D899500074EAA4;
+			remoteInfo = ThinaireController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		11A7CD911C455B9C00145109 /* UVVideoStreamPlayer-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UVVideoStreamPlayer-Prefix.pch"; sourceTree = "<group>"; };
+		3E5B6A801938D3EE0084123A /* TAGlobals.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAGlobals.h; sourceTree = "<group>"; };
+		4A6BE19D19ADD94D0047AA66 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		664A268414E3222700C297E6 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		664A269514E3265400C297E6 /* DevoeTechUtils.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DevoeTechUtils.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		664A269914E3265400C297E6 /* UVVideoStreamPlayerResources-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UVVideoStreamPlayerResources-Info.plist"; sourceTree = "<group>"; };
+		664A269B14E3265400C297E6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		66E8B6D314D899500074EAA4 /* libDevoeTechUtils.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libDevoeTechUtils.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		66E8B6D614D899500074EAA4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		66E8B6DA14D899500074EAA4 /* DevTechUtils-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DevTechUtils-Prefix.pch"; sourceTree = "<group>"; };
+		8B0914101B98B10900DEEBB2 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+		8B0914131B98B1DE00DEEBB2 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		8B09144A1B98C18C00DEEBB2 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		8B1760701AE6DA3C00895186 /* TAOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = TAOperation.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		8B1760711AE6DA3C00895186 /* TAOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = TAOperation.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		8B1760781AE6DFEC00895186 /* TAOperationQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = TAOperationQueue.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		8B1760791AE6DFEC00895186 /* TAOperationQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = TAOperationQueue.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		8B21BE541B26325B00A7D637 /* TADate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; name = TADate.h; path = Serenity/TADate.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		8B21BE551B26325B00A7D637 /* TADate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; name = TADate.m; path = Serenity/TADate.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		8B21BE581B26325B00A7D637 /* TALog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TALog.h; path = Serenity/TALog.h; sourceTree = "<group>"; };
+		8B21BE591B26325B00A7D637 /* TALog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TALog.m; path = Serenity/TALog.m; sourceTree = "<group>"; };
+		8B21BE871B27586500A7D637 /* ArchiveManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ArchiveManager.h; path = Serenity/ArchiveManager.h; sourceTree = "<group>"; };
+		8B21BE881B27586500A7D637 /* ArchiveManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ArchiveManager.m; path = Serenity/ArchiveManager.m; sourceTree = "<group>"; };
+		8B2AC7D11BD9713D00511107 /* TADurationTimers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TADurationTimers.h; path = Serenity/TADurationTimers.h; sourceTree = "<group>"; };
+		8B2AC7D21BD9713D00511107 /* TADurationTimers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TADurationTimers.m; path = Serenity/TADurationTimers.m; sourceTree = "<group>"; };
+		8B52BB231BBC8EB200448808 /* DTBiDiQue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DTBiDiQue.h; path = Serenity/DTBiDiQue.h; sourceTree = "<group>"; };
+		8B52BB241BBC8EB200448808 /* DTBiDiQue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DTBiDiQue.m; path = Serenity/DTBiDiQue.m; sourceTree = "<group>"; };
+		8B7C29FD1BA079EF00D7193A /* TADeviceHardware.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TADeviceHardware.h; path = Serenity/TADeviceHardware.h; sourceTree = "<group>"; };
+		8B7C29FE1BA079EF00D7193A /* TADeviceHardware.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TADeviceHardware.m; path = Serenity/TADeviceHardware.m; sourceTree = "<group>"; };
+		8B7C2A011BA1C75E00D7193A /* TATimers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TATimers.h; path = Serenity/Util/TATimers.h; sourceTree = "<group>"; };
+		8B7C2A021BA1C75E00D7193A /* TATimers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TATimers.m; path = Serenity/Util/TATimers.m; sourceTree = "<group>"; };
+		8B97DE0C1BC2C9BB00574926 /* libDevoeTechUtils.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libDevoeTechUtils.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BA5BF421BCC455E000626F4 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		8BF66F0B1B02A7B20085122F /* TAUniqueIdentifier.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; name = TAUniqueIdentifier.h; path = Serenity/TAUniqueIdentifier.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		8BF66F0C1B02A7B20085122F /* TAUniqueIdentifier.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; name = TAUniqueIdentifier.m; path = Serenity/TAUniqueIdentifier.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		8BF66F0F1B02A9FD0085122F /* SSKeychain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SSKeychain.h; path = Serenity/SSKeychain.h; sourceTree = "<group>"; };
+		8BF66F101B02A9FD0085122F /* SSKeychain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SSKeychain.m; path = Serenity/SSKeychain.m; sourceTree = "<group>"; };
+		8BF66F111B02A9FD0085122F /* SSKeychainQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SSKeychainQuery.h; path = Serenity/SSKeychainQuery.h; sourceTree = "<group>"; };
+		8BF66F121B02A9FD0085122F /* SSKeychainQuery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SSKeychainQuery.m; path = Serenity/SSKeychainQuery.m; sourceTree = "<group>"; };
+		F5AA1C87193FA323000FEB29 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		F5AA1C89193FA331000FEB29 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		F5AA1C8C193FA352000FEB29 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		F5AA1C8D193FA352000FEB29 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		664A269214E3265400C297E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				664A269614E3265400C297E6 /* CoreFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66E8B6D014D899500074EAA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BA5BF431BCC455E000626F4 /* AdSupport.framework in Frameworks */,
+				8B09144B1B98C18C00DEEBB2 /* AVFoundation.framework in Frameworks */,
+				8B0914141B98B1DE00DEEBB2 /* Accelerate.framework in Frameworks */,
+				8B0914111B98B10900DEEBB2 /* CoreAudio.framework in Frameworks */,
+				F5AA1C90193FA352000FEB29 /* UIKit.framework in Frameworks */,
+				4A6BE19E19ADD94D0047AA66 /* CoreBluetooth.framework in Frameworks */,
+				F5AA1C8F193FA352000FEB29 /* SystemConfiguration.framework in Frameworks */,
+				F5AA1C8B193FA33B000FEB29 /* CoreFoundation.framework in Frameworks */,
+				F5AA1C8A193FA331000FEB29 /* CoreLocation.framework in Frameworks */,
+				F5AA1C88193FA323000FEB29 /* QuartzCore.framework in Frameworks */,
+				66E8B6D714D899500074EAA4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B97DDCC1BC2C9BB00574926 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B97DDCD1BC2C9BB00574926 /* AVFoundation.framework in Frameworks */,
+				8B97DDCE1BC2C9BB00574926 /* Accelerate.framework in Frameworks */,
+				8B97DDCF1BC2C9BB00574926 /* CoreAudio.framework in Frameworks */,
+				8B97DDD01BC2C9BB00574926 /* UIKit.framework in Frameworks */,
+				8B97DDD11BC2C9BB00574926 /* CoreBluetooth.framework in Frameworks */,
+				8B97DDD21BC2C9BB00574926 /* SystemConfiguration.framework in Frameworks */,
+				8B97DDD31BC2C9BB00574926 /* CoreFoundation.framework in Frameworks */,
+				8B97DDD41BC2C9BB00574926 /* CoreLocation.framework in Frameworks */,
+				8B97DDD51BC2C9BB00574926 /* QuartzCore.framework in Frameworks */,
+				8B97DDD61BC2C9BB00574926 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		11A7CD901C455AB800145109 /* System */ = {
+			isa = PBXGroup;
+			children = (
+				8B17606F1AE6D9FF00895186 /* OperationQ */,
+			);
+			name = System;
+			sourceTree = "<group>";
+		};
+		664A269714E3265400C297E6 /* SerenityResources */ = {
+			isa = PBXGroup;
+			children = (
+				664A26A714E32C0A00C297E6 /* English */,
+				664A269914E3265400C297E6 /* UVVideoStreamPlayerResources-Info.plist */,
+			);
+			path = SerenityResources;
+			sourceTree = "<group>";
+		};
+		664A26A714E32C0A00C297E6 /* English */ = {
+			isa = PBXGroup;
+			children = (
+				664A269A14E3265400C297E6 /* InfoPlist.strings */,
+			);
+			name = English;
+			sourceTree = "<group>";
+		};
+		66E8B6C814D899500074EAA4 = {
+			isa = PBXGroup;
+			children = (
+				11A7CD901C455AB800145109 /* System */,
+				8B21BE8D1B275BB300A7D637 /* Util */,
+				8B21BE8C1B275B8D00A7D637 /* Persistance */,
+				66E8B6D814D899500074EAA4 /* Serenity */,
+				664A269714E3265400C297E6 /* SerenityResources */,
+				66E8B6D514D899500074EAA4 /* Frameworks */,
+				66E8B6D414D899500074EAA4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		66E8B6D414D899500074EAA4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				66E8B6D314D899500074EAA4 /* libDevoeTechUtils.a */,
+				664A269514E3265400C297E6 /* DevoeTechUtils.bundle */,
+				8B97DE0C1BC2C9BB00574926 /* libDevoeTechUtils.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		66E8B6D514D899500074EAA4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8BA5BF421BCC455E000626F4 /* AdSupport.framework */,
+				8B09144A1B98C18C00DEEBB2 /* AVFoundation.framework */,
+				8B0914131B98B1DE00DEEBB2 /* Accelerate.framework */,
+				8B0914101B98B10900DEEBB2 /* CoreAudio.framework */,
+				4A6BE19D19ADD94D0047AA66 /* CoreBluetooth.framework */,
+				F5AA1C8C193FA352000FEB29 /* SystemConfiguration.framework */,
+				F5AA1C8D193FA352000FEB29 /* UIKit.framework */,
+				F5AA1C89193FA331000FEB29 /* CoreLocation.framework */,
+				F5AA1C87193FA323000FEB29 /* QuartzCore.framework */,
+				66E8B6D614D899500074EAA4 /* Foundation.framework */,
+				664A268414E3222700C297E6 /* CoreFoundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		66E8B6D814D899500074EAA4 /* Serenity */ = {
+			isa = PBXGroup;
+			children = (
+				11A7CD911C455B9C00145109 /* UVVideoStreamPlayer-Prefix.pch */,
+				3E5B6A801938D3EE0084123A /* TAGlobals.h */,
+				66E8B6DA14D899500074EAA4 /* DevTechUtils-Prefix.pch */,
+			);
+			path = Serenity;
+			sourceTree = "<group>";
+		};
+		8B17606F1AE6D9FF00895186 /* OperationQ */ = {
+			isa = PBXGroup;
+			children = (
+				8B1760701AE6DA3C00895186 /* TAOperation.h */,
+				8B1760711AE6DA3C00895186 /* TAOperation.m */,
+				8B1760781AE6DFEC00895186 /* TAOperationQueue.h */,
+				8B1760791AE6DFEC00895186 /* TAOperationQueue.m */,
+			);
+			name = OperationQ;
+			path = Serenity;
+			sourceTree = "<group>";
+		};
+		8B21BE8C1B275B8D00A7D637 /* Persistance */ = {
+			isa = PBXGroup;
+			children = (
+				8B21BE581B26325B00A7D637 /* TALog.h */,
+				8B21BE591B26325B00A7D637 /* TALog.m */,
+				8BF66F0F1B02A9FD0085122F /* SSKeychain.h */,
+				8BF66F101B02A9FD0085122F /* SSKeychain.m */,
+				8BF66F111B02A9FD0085122F /* SSKeychainQuery.h */,
+				8BF66F121B02A9FD0085122F /* SSKeychainQuery.m */,
+				8BF66F0B1B02A7B20085122F /* TAUniqueIdentifier.h */,
+				8BF66F0C1B02A7B20085122F /* TAUniqueIdentifier.m */,
+				8B21BE871B27586500A7D637 /* ArchiveManager.h */,
+				8B21BE881B27586500A7D637 /* ArchiveManager.m */,
+			);
+			name = Persistance;
+			sourceTree = "<group>";
+		};
+		8B21BE8D1B275BB300A7D637 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				8B52BB231BBC8EB200448808 /* DTBiDiQue.h */,
+				8B52BB241BBC8EB200448808 /* DTBiDiQue.m */,
+				8B21BE541B26325B00A7D637 /* TADate.h */,
+				8B21BE551B26325B00A7D637 /* TADate.m */,
+				8B7C29FD1BA079EF00D7193A /* TADeviceHardware.h */,
+				8B7C29FE1BA079EF00D7193A /* TADeviceHardware.m */,
+				8B7C2A011BA1C75E00D7193A /* TATimers.h */,
+				8B7C2A021BA1C75E00D7193A /* TATimers.m */,
+				8B2AC7D11BD9713D00511107 /* TADurationTimers.h */,
+				8B2AC7D21BD9713D00511107 /* TADurationTimers.m */,
+			);
+			name = Util;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		66E8B6D114D899500074EAA4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B1760721AE6DA3C00895186 /* TAOperation.h in Headers */,
+				8B2AC7D31BD9713D00511107 /* TADurationTimers.h in Headers */,
+				8B21BE5E1B26325B00A7D637 /* TADate.h in Headers */,
+				8B52BB251BBC8EB200448808 /* DTBiDiQue.h in Headers */,
+				8B7C29FF1BA079EF00D7193A /* TADeviceHardware.h in Headers */,
+				11A7CD921C455B9C00145109 /* UVVideoStreamPlayer-Prefix.pch in Headers */,
+				8B7C2A031BA1C75E00D7193A /* TATimers.h in Headers */,
+				8B21BE891B27586500A7D637 /* ArchiveManager.h in Headers */,
+				8B17607A1AE6DFEC00895186 /* TAOperationQueue.h in Headers */,
+				8BF66F151B02A9FD0085122F /* SSKeychainQuery.h in Headers */,
+				8BF66F0D1B02A7B20085122F /* TAUniqueIdentifier.h in Headers */,
+				3E5B6A971938D3EE0084123A /* TAGlobals.h in Headers */,
+				8BF66F131B02A9FD0085122F /* SSKeychain.h in Headers */,
+				8B21BE621B26325B00A7D637 /* TALog.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B97DDD71BC2C9BB00574926 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B97DDDF1BC2C9BB00574926 /* TAOperation.h in Headers */,
+				8B97DDE01BC2C9BB00574926 /* ArchiveManager.h in Headers */,
+				8B97DDE31BC2C9BB00574926 /* SSKeychainQuery.h in Headers */,
+				8B97DDE61BC2C9BB00574926 /* DTBiDiQue.h in Headers */,
+				8B97DDE91BC2C9BB00574926 /* TADate.h in Headers */,
+				8B97DDED1BC2C9BB00574926 /* TATimers.h in Headers */,
+				8B97DDF11BC2C9BB00574926 /* TADeviceHardware.h in Headers */,
+				8B97DDF31BC2C9BB00574926 /* TAOperationQueue.h in Headers */,
+				8B97DDF51BC2C9BB00574926 /* TAGlobals.h in Headers */,
+				8B97DDFA1BC2C9BB00574926 /* SSKeychain.h in Headers */,
+				8B97DDFD1BC2C9BB00574926 /* TALog.h in Headers */,
+				8B97DE001BC2C9BB00574926 /* TAUniqueIdentifier.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		664A269414E3265400C297E6 /* DevoeTechUtilsResources */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 664A269E14E3265400C297E6 /* Build configuration list for PBXNativeTarget "DevoeTechUtilsResources" */;
+			buildPhases = (
+				664A269114E3265400C297E6 /* Sources */,
+				664A269214E3265400C297E6 /* Frameworks */,
+				664A269314E3265400C297E6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DevoeTechUtilsResources;
+			productName = SerenityResources;
+			productReference = 664A269514E3265400C297E6 /* DevoeTechUtils.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		66E8B6D214D899500074EAA4 /* DevoeTechUtils */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66E8B6E014D899500074EAA4 /* Build configuration list for PBXNativeTarget "DevoeTechUtils" */;
+			buildPhases = (
+				66E8B6CF14D899500074EAA4 /* Sources */,
+				66E8B6D014D899500074EAA4 /* Frameworks */,
+				66E8B6D114D899500074EAA4 /* Headers */,
+				66E8B6E814D8A4D10074EAA4 /* Prepare Framework */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DevoeTechUtils;
+			productName = Serenity;
+			productReference = 66E8B6D314D899500074EAA4 /* libDevoeTechUtils.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		8B97DD811BC2C9BB00574926 /* DevoeTechUtilsTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B97DE091BC2C9BB00574926 /* Build configuration list for PBXNativeTarget "DevoeTechUtilsTest" */;
+			buildPhases = (
+				8B97DD821BC2C9BB00574926 /* Sources */,
+				8B97DDCC1BC2C9BB00574926 /* Frameworks */,
+				8B97DDD71BC2C9BB00574926 /* Headers */,
+				8B97DE081BC2C9BB00574926 /* Prepare Framework */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8B97DE101BC2CBE300574926 /* PBXTargetDependency */,
+				8B97DE0E1BC2CBC600574926 /* PBXTargetDependency */,
+			);
+			name = DevoeTechUtilsTest;
+			productName = Serenity;
+			productReference = 8B97DE0C1BC2C9BB00574926 /* libDevoeTechUtils.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		66E8B6CA14D899500074EAA4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = Google;
+			};
+			buildConfigurationList = 66E8B6CD14D899500074EAA4 /* Build configuration list for PBXProject "DevoeTechUtils" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 66E8B6C814D899500074EAA4;
+			productRefGroup = 66E8B6D414D899500074EAA4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				66E8B6D214D899500074EAA4 /* DevoeTechUtils */,
+				8B97DD811BC2C9BB00574926 /* DevoeTechUtilsTest */,
+				664A269414E3265400C297E6 /* DevoeTechUtilsResources */,
+				66F5F13314DB195B0068FD20 /* Framework */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		664A269314E3265400C297E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				664A269C14E3265400C297E6 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		66E8B6E814D8A4D10074EAA4 /* Prepare Framework */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Prepare Framework";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\nmkdir -p \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.framework/Versions/${FRAMEWORK_VERSION}/Headers\"\n\n# Link the \"Current\" version to \"${FRAMEWORK_VERSION}\"\nln -sfh ${FRAMEWORK_VERSION} \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.framework/Versions/Current\"\nln -sfh Versions/Current/Headers \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.framework/Headers\"\nln -sfh \"Versions/Current/${PRODUCT_NAME}\" \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.framework/${PRODUCT_NAME}\"\n\n# The -a ensures that the headers maintain the source modification date so that we don't constantly\n# cause propagating rebuilds of files that import these headers.\ncp -a \"${TARGET_BUILD_DIR}/${PUBLIC_HEADERS_FOLDER_PATH}/\" \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.framework/Versions/${FRAMEWORK_VERSION}/Headers\"\n";
+		};
+		66F5F13A14DB19B20068FD20 /* Build Framework */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Build Framework";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\nset +u\n# Avoid recursively calling this script.\nif [[ $SF_MASTER_SCRIPT_RUNNING ]]\nthen\n    exit 0\nfi\nset -u\nexport SF_MASTER_SCRIPT_RUNNING=1\n\nSF_TARGET_NAME=${PROJECT_NAME}\nSF_EXECUTABLE_PATH=\"lib${SF_TARGET_NAME}.a\"\nSF_WRAPPER_NAME=\"${SF_TARGET_NAME}.framework\"\n\n# The following conditionals come from\n# https://github.com/kstenerud/iOS-Universal-Framework\n\nif [[ \"$SDK_NAME\" =~ ([A-Za-z]+) ]]\nthen\n    SF_SDK_PLATFORM=${BASH_REMATCH[1]}\nelse\n    echo \"Could not find platform name from SDK_NAME: $SDK_NAME\"\n    exit 1\nfi\n\nif [[ \"$SDK_NAME\" =~ ([0-9]+.*$) ]]\nthen\n    SF_SDK_VERSION=${BASH_REMATCH[1]}\nelse\n    echo \"Could not find sdk version from SDK_NAME: $SDK_NAME\"\n    exit 1\nfi\n\nif [[ \"$SF_SDK_PLATFORM\" = \"iphoneos\" ]]\nthen\n    SF_OTHER_PLATFORM=iphonesimulator\nelse\n    SF_OTHER_PLATFORM=iphoneos\nfi\n\nif [[ \"$BUILT_PRODUCTS_DIR\" =~ (.*)$SF_SDK_PLATFORM$ ]]\nthen\n    SF_OTHER_BUILT_PRODUCTS_DIR=\"${BASH_REMATCH[1]}${SF_OTHER_PLATFORM}\"\nelse\n    echo \"Could not find platform name from build products directory: $BUILT_PRODUCTS_DIR\"\n    exit 1\nfi\n\n# Build the other platform.\nxcodebuild -project \"${PROJECT_FILE_PATH}\" -target \"${TARGET_NAME}\" -configuration \"${CONFIGURATION}\" -sdk ${SF_OTHER_PLATFORM}${SF_SDK_VERSION} BUILD_DIR=\"${BUILD_DIR}\" OBJROOT=\"${OBJROOT}\" BUILD_ROOT=\"${BUILD_ROOT}\" SYMROOT=\"${SYMROOT}\" $ACTION\n\n# Smash the two static libraries into one fat binary and store it in the .framework\nlipo -create \"${BUILT_PRODUCTS_DIR}/${SF_EXECUTABLE_PATH}\" \"${SF_OTHER_BUILT_PRODUCTS_DIR}/${SF_EXECUTABLE_PATH}\" -output \"${BUILT_PRODUCTS_DIR}/${SF_WRAPPER_NAME}/Versions/${FRAMEWORK_VERSION}/${SF_TARGET_NAME}\"\n\n# Copy the binary to the other architecture folder to have a complete framework in both.\ncp -a \"${BUILT_PRODUCTS_DIR}/${SF_WRAPPER_NAME}/Versions/${FRAMEWORK_VERSION}/${SF_TARGET_NAME}\" \"${SF_OTHER_BUILT_PRODUCTS_DIR}/${SF_WRAPPER_NAME}/Versions/${FRAMEWORK_VERSION}/${SF_TARGET_NAME}\"\n";
+		};
+		8B97DE081BC2C9BB00574926 /* Prepare Framework */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Prepare Framework";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\nmkdir -p \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.framework/Versions/${FRAMEWORK_VERSION}/Headers\"\n\n# Link the \"Current\" version to \"${FRAMEWORK_VERSION}\"\nln -sfh ${FRAMEWORK_VERSION} \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.framework/Versions/Current\"\nln -sfh Versions/Current/Headers \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.framework/Headers\"\nln -sfh \"Versions/Current/${PRODUCT_NAME}\" \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.framework/${PRODUCT_NAME}\"\n\n# The -a ensures that the headers maintain the source modification date so that we don't constantly\n# cause propagating rebuilds of files that import these headers.\ncp -a \"${TARGET_BUILD_DIR}/${PUBLIC_HEADERS_FOLDER_PATH}/\" \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.framework/Versions/${FRAMEWORK_VERSION}/Headers\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		664A269114E3265400C297E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66E8B6CF14D899500074EAA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B52BB261BBC8EB200448808 /* DTBiDiQue.m in Sources */,
+				8B7C2A001BA079EF00D7193A /* TADeviceHardware.m in Sources */,
+				8B7C2A041BA1C75E00D7193A /* TATimers.m in Sources */,
+				8B21BE5F1B26325B00A7D637 /* TADate.m in Sources */,
+				8B21BE631B26325B00A7D637 /* TALog.m in Sources */,
+				8B17607B1AE6DFEC00895186 /* TAOperationQueue.m in Sources */,
+				8BF66F141B02A9FD0085122F /* SSKeychain.m in Sources */,
+				8BF66F161B02A9FD0085122F /* SSKeychainQuery.m in Sources */,
+				8BF66F0E1B02A7B20085122F /* TAUniqueIdentifier.m in Sources */,
+				8B21BE8A1B27586500A7D637 /* ArchiveManager.m in Sources */,
+				8B1760731AE6DA3C00895186 /* TAOperation.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B97DD821BC2C9BB00574926 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B97DD8E1BC2C9BB00574926 /* DTBiDiQue.m in Sources */,
+				8B97DD941BC2C9BB00574926 /* TADeviceHardware.m in Sources */,
+				8B97DD961BC2C9BB00574926 /* TATimers.m in Sources */,
+				8B97DD991BC2C9BB00574926 /* TADate.m in Sources */,
+				8B97DD9D1BC2C9BB00574926 /* TALog.m in Sources */,
+				8B97DDA11BC2C9BB00574926 /* TAOperationQueue.m in Sources */,
+				8B97DDB11BC2C9BB00574926 /* SSKeychain.m in Sources */,
+				8B97DDB31BC2C9BB00574926 /* SSKeychainQuery.m in Sources */,
+				8B97DDB41BC2C9BB00574926 /* TAUniqueIdentifier.m in Sources */,
+				8B97DDB51BC2C9BB00574926 /* ArchiveManager.m in Sources */,
+				8B97DDC61BC2C9BB00574926 /* TAOperation.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		664A26AC14E330B700C297E6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 664A269414E3265400C297E6 /* DevoeTechUtilsResources */;
+			targetProxy = 664A26AB14E330B700C297E6 /* PBXContainerItemProxy */;
+		};
+		66F5F13914DB19940068FD20 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 66E8B6D214D899500074EAA4 /* DevoeTechUtils */;
+			targetProxy = 66F5F13814DB19940068FD20 /* PBXContainerItemProxy */;
+		};
+		8B97DE0E1BC2CBC600574926 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 664A269414E3265400C297E6 /* DevoeTechUtilsResources */;
+			targetProxy = 8B97DE0D1BC2CBC600574926 /* PBXContainerItemProxy */;
+		};
+		8B97DE101BC2CBE300574926 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 66E8B6D214D899500074EAA4 /* DevoeTechUtils */;
+			targetProxy = 8B97DE0F1BC2CBE300574926 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		664A269A14E3265400C297E6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				664A269B14E3265400C297E6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		664A269F14E3265400C297E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				INFOPLIST_FILE = "SerenityResources/UVVideoStreamPlayerResources-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				PRODUCT_BUNDLE_IDENTIFIER = "jeffverkoeyen.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = DevoeTechUtils;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		664A26A014E3265400C297E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				INFOPLIST_FILE = "SerenityResources/UVVideoStreamPlayerResources-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				PRODUCT_BUNDLE_IDENTIFIER = "jeffverkoeyen.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = DevoeTechUtils;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		66E8B6DE14D899500074EAA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Thinaire Transmedia Network, LLC (W5DM7L3X5L)";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_BITCODE = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "8fd76a0c-b7ff-4661-beb9-e2e698912179";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		66E8B6DF14D899500074EAA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Thinaire Transmedia Network, LLC (W5DM7L3X5L)";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_BITCODE = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				PROVISIONING_PROFILE = "8fd76a0c-b7ff-4661-beb9-e2e698912179";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		66E8B6E114D899500074EAA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = NO;
+				DSTROOT = /tmp/Serenity.dst;
+				FRAMEWORK_SEARCH_PATHS = "$(PLATFORM_DIR)/Developer/Library/Frameworks";
+				"FRAMEWORK_SEARCH_PATHS[arch=*]" = "";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Serenity/UVVideoStreamPlayer-Prefix.pch";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/Lisnr/NGAGE-SDK-iOS",
+				);
+				LINK_WITH_STANDARD_LIBRARIES = NO;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = DevoeTechUtils;
+				PUBLIC_HEADERS_FOLDER_PATH = "$(PROJECT_NAME)Headers";
+				SKIP_INSTALL = YES;
+				STRIP_STYLE = "non-global";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		66E8B6E214D899500074EAA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = NO;
+				DSTROOT = /tmp/Serenity.dst;
+				FRAMEWORK_SEARCH_PATHS = "$(PLATFORM_DIR)/Developer/Library/Frameworks";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Serenity/UVVideoStreamPlayer-Prefix.pch";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/Lisnr/NGAGE-SDK-iOS",
+				);
+				LINK_WITH_STANDARD_LIBRARIES = NO;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = DevoeTechUtils;
+				PUBLIC_HEADERS_FOLDER_PATH = "$(PROJECT_NAME)Headers";
+				SKIP_INSTALL = YES;
+				STRIP_STYLE = "non-global";
+			};
+			name = Release;
+		};
+		66F5F13414DB195B0068FD20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		66F5F13514DB195B0068FD20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8B97DE0A1BC2C9BB00574926 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = NO;
+				DSTROOT = /tmp/Serenity.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Serenity/UVVideoStreamPlayer-Prefix.pch";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				LINK_WITH_STANDARD_LIBRARIES = NO;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = DevoeTechUtils;
+				PUBLIC_HEADERS_FOLDER_PATH = "$(PROJECT_NAME)Headers";
+				SKIP_INSTALL = YES;
+				STRIP_STYLE = "non-global";
+			};
+			name = Debug;
+		};
+		8B97DE0B1BC2C9BB00574926 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = NO;
+				DSTROOT = /tmp/Serenity.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Serenity/UVVideoStreamPlayer-Prefix.pch";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				LINK_WITH_STANDARD_LIBRARIES = NO;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = DevoeTechUtils;
+				PUBLIC_HEADERS_FOLDER_PATH = "$(PROJECT_NAME)Headers";
+				SKIP_INSTALL = YES;
+				STRIP_STYLE = "non-global";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		664A269E14E3265400C297E6 /* Build configuration list for PBXNativeTarget "DevoeTechUtilsResources" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				664A269F14E3265400C297E6 /* Debug */,
+				664A26A014E3265400C297E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		66E8B6CD14D899500074EAA4 /* Build configuration list for PBXProject "DevoeTechUtils" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66E8B6DE14D899500074EAA4 /* Debug */,
+				66E8B6DF14D899500074EAA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		66E8B6E014D899500074EAA4 /* Build configuration list for PBXNativeTarget "DevoeTechUtils" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66E8B6E114D899500074EAA4 /* Debug */,
+				66E8B6E214D899500074EAA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		66F5F13614DB195B0068FD20 /* Build configuration list for PBXAggregateTarget "Framework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66F5F13414DB195B0068FD20 /* Debug */,
+				66F5F13514DB195B0068FD20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B97DE091BC2C9BB00574926 /* Build configuration list for PBXNativeTarget "DevoeTechUtilsTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B97DE0A1BC2C9BB00574926 /* Debug */,
+				8B97DE0B1BC2C9BB00574926 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 66E8B6CA14D899500074EAA4 /* Project object */;
+}

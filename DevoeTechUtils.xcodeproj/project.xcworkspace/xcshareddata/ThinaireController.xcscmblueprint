@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "678005D7A249B1D81B1BCC1251CC1E363B809251",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "7606227B8BBC32C21B5884CA10934EAC2CAB4CA4" : 0,
+    "678005D7A249B1D81B1BCC1251CC1E363B809251" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "AB02B4DE-2CD5-4C78-8114-690A4CBB67A4",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "7606227B8BBC32C21B5884CA10934EAC2CAB4CA4" : "ios-framework",
+    "678005D7A249B1D81B1BCC1251CC1E363B809251" : "ios-thinaire-library"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "ThinaireController",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 203,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "ThinaireController.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/thinaire\/ios-thinaire-library.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "678005D7A249B1D81B1BCC1251CC1E363B809251"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/thinaire\/ios-framework.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "7606227B8BBC32C21B5884CA10934EAC2CAB4CA4"
+    }
+  ]
+}
