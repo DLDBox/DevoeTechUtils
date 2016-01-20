@@ -23,6 +23,7 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
+		1113CACB1C502ADB00F8969C /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 1113CACA1C502ADB00F8969C /* README.md */; };
 		11A7CD921C455B9C00145109 /* UVVideoStreamPlayer-Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = 11A7CD911C455B9C00145109 /* UVVideoStreamPlayer-Prefix.pch */; };
 		3E5B6A971938D3EE0084123A /* TAGlobals.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E5B6A801938D3EE0084123A /* TAGlobals.h */; };
 		4A6BE19E19ADD94D0047AA66 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A6BE19D19ADD94D0047AA66 /* CoreBluetooth.framework */; };
@@ -38,7 +39,7 @@
 		8B17607B1AE6DFEC00895186 /* TAOperationQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B1760791AE6DFEC00895186 /* TAOperationQueue.m */; };
 		8B21BE5E1B26325B00A7D637 /* TADate.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B21BE541B26325B00A7D637 /* TADate.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8B21BE5F1B26325B00A7D637 /* TADate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B21BE551B26325B00A7D637 /* TADate.m */; };
-		8B21BE621B26325B00A7D637 /* TALog.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B21BE581B26325B00A7D637 /* TALog.h */; };
+		8B21BE621B26325B00A7D637 /* TALog.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B21BE581B26325B00A7D637 /* TALog.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8B21BE631B26325B00A7D637 /* TALog.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B21BE591B26325B00A7D637 /* TALog.m */; };
 		8B21BE891B27586500A7D637 /* ArchiveManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B21BE871B27586500A7D637 /* ArchiveManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8B21BE8A1B27586500A7D637 /* ArchiveManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B21BE881B27586500A7D637 /* ArchiveManager.m */; };
@@ -128,6 +129,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1113CACA1C502ADB00F8969C /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		11A7CD911C455B9C00145109 /* UVVideoStreamPlayer-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UVVideoStreamPlayer-Prefix.pch"; sourceTree = "<group>"; };
 		3E5B6A801938D3EE0084123A /* TAGlobals.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAGlobals.h; sourceTree = "<group>"; };
 		4A6BE19D19ADD94D0047AA66 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
@@ -248,6 +250,7 @@
 		66E8B6C814D899500074EAA4 = {
 			isa = PBXGroup;
 			children = (
+				1113CACA1C502ADB00F8969C /* README.md */,
 				11A7CD901C455AB800145109 /* System */,
 				8B21BE8D1B275BB300A7D637 /* Util */,
 				8B21BE8C1B275B8D00A7D637 /* Persistance */,
@@ -358,11 +361,11 @@
 				8B7C2A031BA1C75E00D7193A /* TATimers.h in Headers */,
 				8B21BE891B27586500A7D637 /* ArchiveManager.h in Headers */,
 				8B17607A1AE6DFEC00895186 /* TAOperationQueue.h in Headers */,
+				8B21BE621B26325B00A7D637 /* TALog.h in Headers */,
 				8BF66F151B02A9FD0085122F /* SSKeychainQuery.h in Headers */,
 				8BF66F0D1B02A7B20085122F /* TAUniqueIdentifier.h in Headers */,
 				3E5B6A971938D3EE0084123A /* TAGlobals.h in Headers */,
 				8BF66F131B02A9FD0085122F /* SSKeychain.h in Headers */,
-				8B21BE621B26325B00A7D637 /* TALog.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -547,6 +550,7 @@
 				8B21BE5F1B26325B00A7D637 /* TADate.m in Sources */,
 				8B21BE631B26325B00A7D637 /* TALog.m in Sources */,
 				8B17607B1AE6DFEC00895186 /* TAOperationQueue.m in Sources */,
+				1113CACB1C502ADB00F8969C /* README.md in Sources */,
 				8BF66F141B02A9FD0085122F /* SSKeychain.m in Sources */,
 				8BF66F161B02A9FD0085122F /* SSKeychainQuery.m in Sources */,
 				8BF66F0E1B02A7B20085122F /* TAUniqueIdentifier.m in Sources */,
